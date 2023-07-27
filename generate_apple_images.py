@@ -20,6 +20,6 @@ for fruit in fruits:
         for number in range(50):
             prompt = f"{fruit} fruit{position}, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3"
             image = pipe(prompt).images[0]
-            image.save(f"C:\\Users\\PC\\OneDrive\\Pulpit\\baza danych\\owoce\\apple_realistic_1_4\\{fruit}_{position}_{number}.png")
+            image.save(f"owoce\\apple_realistic_1_4\\{fruit}_{position}_{number}.png")
 
 #%%
